@@ -8,7 +8,7 @@
 
 ## Installation
  ```
- $ git clone https://github.com/WafflesExploit/Rep/PyScripts/GetWIFIPass
+ $ git clone https://github.com/WafflesExploit/SMTP-MX-Enumerator
  ```
 
 ## Example Usage
