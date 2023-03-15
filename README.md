@@ -1,5 +1,5 @@
 # SMTP-MX-Enumerator
-> Enumerates SMTP servers and respective IP addresses
+ ### -> Enumerates mail servers from domains using MX/A records.
 ## Table of Contents
 * [Installation](#installation)
 * [Example Usage](#Example-Usage)
