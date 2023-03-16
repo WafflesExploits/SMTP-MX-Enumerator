@@ -142,11 +142,14 @@ if __name__=='__main__': # Only runs when executed as a script.
 	print(f"| Domain: {Domain} ")
 	print(f"| Finished scan in {str(RunTime)[0:5]}s.")
 	MailServers = dict(sorted(MailServers.items()))
-	for key,value in MailServers.items():
-		print(f"| [{key}] MX Record - {value[0]}")
-		stringus = ""
-		for x in value[1]:
-			stringus += x+", "
-		print(f"| A Records: {stringus[0:-2]}")
+	if(len(MailServers) == 0 ):
+		print("| No MX Records found.")
+	else: 
+		for key,value in MailServers.items():
+			print(f"| [{key}] MX Record - {value[0]}")
+			stringus = ""
+			for x in value[1]:
+				stringus += x+", "
+			print(f"| A Records: {stringus[0:-2]}")
 	
 	print("*")
