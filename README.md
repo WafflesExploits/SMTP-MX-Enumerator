@@ -13,6 +13,7 @@
 
 ## Example Usage
 ```
+$ ./smtp-records-enum.py -d naturitas.pt
 * Starting SMTP Records Enum at 2023-03-15 13:46:14.
 | 
 | Settings:
