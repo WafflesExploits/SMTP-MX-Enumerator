@@ -20,7 +20,7 @@ $ ./smtp-records-enum.py -d naturitas.pt
 | Number of Scans: 10 | Delay time between scans: 0
 |
 | Credits:
-| By (https://github.com/WafflesExploit)
+| By (https://github.com/WafflesExploits)
 | 
 | Results:
 | Domain: naturitas.pt 
