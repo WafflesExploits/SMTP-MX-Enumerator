@@ -52,7 +52,7 @@ if __name__=='__main__': # Only runs when executed as a script.
 	print(f"| Number of Scans: {ScanNum} | Delay time between scans: {SleepTime}")
 	print("|")
 	print("| Credits:")
-	print("| By [- https://github.com/WafflesExploit -]")
+	print("| By [- https://github.com/WafflesExploits -]")
 	# Get MX Records and Respective Priority
 	data = cmd(f"host -t mx {Domain}") # Uses host to extract MX records from Domain
 	
